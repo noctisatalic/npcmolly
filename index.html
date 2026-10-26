@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f7f7f5" />
+  <title>NPC Molly | Contact & Services</title>
+  <meta name="description" content="Hubungi NPC Molly untuk konsultasi, layanan, dan informasi lebih lanjut." />
+  <style>
+    :root {
+      --bg: #f7f7f5;
+      --surface: #ffffff;
+      --ink: #171717;
+      --muted: #777773;
+      --line: #e8e8e3;
+      --accent: #b99a58;
+      --shadow: 0 22px 60px rgba(20, 20, 20, .055);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; padding: 28px 18px;
+      display: grid; place-items: center;
+      color: var(--ink); background:
+        radial-gradient(ellipse at 50% 0%, rgba(185,154,88,.09), transparent 40%),
+        var(--bg);
+      font-family: Inter, "Helvetica Neue", Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .page { width: 100%; max-width: 470px; }
+    .card {
+      background: var(--surface); border: 1px solid rgba(20,20,20,.045);
+      border-radius: 28px; padding: 34px 28px 28px;
+      box-shadow: var(--shadow); text-align: center;
+    }
+    .brand-mark {
+      width: 104px; height: 104px; margin: 0 auto 21px;
+      display: grid; place-items: center; overflow: hidden;
+      border-radius: 24px; background: #fff;
+      border: 1px solid var(--line);
+    }
+    .brand-mark img { width: 100%; height: 100%; object-fit: contain; padding: 8px; }
+    .eyebrow {
+      margin: 0 0 9px; color: var(--accent); font-size: 10px;
+      font-weight: 700; letter-spacing: .22em; text-transform: uppercase;
+    }
+    h1 { margin: 0; font-size: clamp(27px, 7vw, 34px); letter-spacing: -.055em; font-weight: 650; }
+    .intro {
+      max-width: 330px; margin: 12px auto 25px; color: var(--muted);
+      font-size: 13px; line-height: 1.75;
+    }
+    .contact-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 11px; }
+    .button {
+      min-height: 52px; display: flex; align-items: center; justify-content: center;
+      gap: 9px; padding: 13px 15px; border-radius: 14px;
+      text-decoration: none; font-size: 12px; font-weight: 650;
+      letter-spacing: .01em; transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
+    }
+    .button:hover { transform: translateY(-2px); }
+    .button svg { width: 17px; height: 17px; flex: 0 0 auto; }
+    .primary { background: var(--ink); color: white; box-shadow: 0 7px 18px rgba(0,0,0,.09); }
+    .primary:hover { background: #30302d; }
+    .facebook { background: #f5f5f2; color: var(--ink); border: 1px solid var(--line); }
+    .facebook:hover { background: #eeeeea; }
+    .portfolio {
+      width: 100%; color: var(--ink); background: white;
+      border: 1px solid #dcdcd6; margin-bottom: 25px;
+    }
+    .portfolio:hover { box-shadow: 0 8px 22px rgba(0,0,0,.045); }
+    .section-label {
+      display: flex; align-items: center; gap: 12px; margin: 0 0 13px;
+      color: #8b8b85; font-size: 10px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase;
+    }
+    .section-label::after { content: ""; height: 1px; flex: 1; background: var(--line); }
+    .services { display: grid; gap: 9px; text-align: left; }
+    .service {
+      display: flex; align-items: flex-start; gap: 13px; padding: 14px;
+      border: 1px solid var(--line); border-radius: 15px; background: #fff;
+    }
+    .service-icon {
+      width: 34px; height: 34px; flex: 0 0 34px; display: grid; place-items: center;
+      border-radius: 10px; background: #f6f3eb; color: #8e743d;
+    }
+    .service-icon svg { width: 17px; height: 17px; }
+    .service h2 { margin: 1px 0 5px; font-size: 12px; font-weight: 700; }
+    .service p { margin: 0; color: var(--muted); font-size: 11px; line-height: 1.65; }
+    .footer { margin-top: 23px; color: #a0a09a; font-size: 10px; letter-spacing: .08em; }
+    @media (max-width: 360px) {
+      .card { padding: 28px 18px 23px; }
+      .button { padding: 12px 9px; font-size: 11px; }
+    }
+    @media (prefers-reduced-motion: reduce) { .button { transition: none; } }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="card" aria-label="NPC Molly contact page">
+      <div class="brand-mark">
+        <img src="npcmolly.png" alt="Logo NPC Molly" />
+      </div>
+      <p class="eyebrow">Official Contact & Services</p>
+      <h1>NPC Molly</h1>
+      <p class="intro">
+        Informasi layanan, konsultasi, dan kerja sama. Silakan hubungi kami melalui kanal resmi di bawah ini.
+      </p>
+
+      <div class="contact-row">
+        <a class="button primary" href="https://wa.me/6281318048885" target="_blank" rel="noopener noreferrer" aria-label="Hubungi melalui WhatsApp">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 11.7a8 8 0 0 1-11.8 7L4 20l1.3-4A8 8 0 1 1 20 11.7Z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 8.5c.3-.5.6-.5.9-.5l.6 1.4-.7.8c.6 1.2 1.4 1.9 2.6 2.5l.8-.7 1.4.6c.1.4 0 .7-.4 1-1 .7-2.4.2-4-1-1.5-1.2-2.4-2.8-1.2-4.1Z" fill="currentColor"/></svg>
+          WhatsApp
+        </a>
+        <a class="button facebook" href="https://www.facebook.com/share/1MtuH7PG4L/" target="_blank" rel="noopener noreferrer" aria-label="Kunjungi Facebook">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.5 1.6-1.5h1.7V3.9c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V10H7.3v3h2.8v8h3.4Z"/></svg>
+          Facebook
+        </a>
+      </div>
+
+      <a class="button portfolio" href="https://noctisatalic.github.io/NoctisAtalic/" target="_blank" rel="noopener noreferrer">
+        Lihat Portofolio Web
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+
+      <p class="section-label">Layanan</p>
+      <div class="services">
+        <article class="service">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="4" width="18" height="15" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M3 8h18M8 21h8M12 19v2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </div>
+          <div>
+            <h2>Website & Digital Presence</h2>
+            <p>Pembuatan website profesional untuk personal brand, bisnis, dan kebutuhan promosi digital.</p>
+          </div>
+        </article>
+        <article class="service">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3 14.5 9.5 21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5L12 3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          </div>
+          <div>
+            <h2>Branding & Digital Design</h2>
+            <p>Desain identitas visual dan materi digital yang konsisten, rapi, serta berkarakter.</p>
+          </div>
+        </article>
+        <article class="service">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 6h16v12H4zM8 10h8M8 14h5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div>
+            <h2>NPC Molly</h2>
+            <p>Informasi ikan molly, konsultasi, dan komunikasi terkait kebutuhan hobi maupun usaha.</p>
+          </div>
+        </article>
+      </div>
+      <div class="footer">NPC MOLLY · OFFICIAL PAGE</div>
+    </section>
+  </main>
+</body>
+</html>
